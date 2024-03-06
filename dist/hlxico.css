@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "hlxico";
+  src: url('hlxico.eot?t=1709717258542'); /* IE9*/
+  src: url('hlxico.eot?t=1709717258542#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("hlxico.woff2?t=1709717258542") format("woff2"),
+  url("hlxico.woff?t=1709717258542") format("woff"),
+  url('hlxico.ttf?t=1709717258542') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('hlxico.svg?t=1709717258542#hlxico') format('svg'); /* iOS 4.1- */
+}
+
+[class^="hi-"], [class*=" hi-"] {
+  font-family: 'hlxico' !important;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.hi-angle-down:before { content: "\ea01"; }
+.hi-angle-dropdown:before { content: "\ea02"; }
+.hi-angle-left:before { content: "\ea03"; }
+.hi-angle-right:before { content: "\ea04"; }
+.hi-arrow-down:before { content: "\ea05"; }
+.hi-arrow-left:before { content: "\ea06"; }
+.hi-arrow-right:before { content: "\ea07"; }
+.hi-arrow-up-down:before { content: "\ea08"; }
+.hi-arrow-up:before { content: "\ea09"; }
+.hi-bell:before { content: "\ea0a"; }
+.hi-calendar:before { content: "\ea0b"; }
+.hi-cancel:before { content: "\ea0c"; }
+.hi-close:before { content: "\ea0d"; }
+.hi-delete:before { content: "\ea0e"; }
+.hi-diagram:before { content: "\ea0f"; }
+.hi-dots-horizontal:before { content: "\ea10"; }
+.hi-dots-vertical:before { content: "\ea11"; }
+.hi-download-file:before { content: "\ea12"; }
+.hi-download:before { content: "\ea13"; }
+.hi-edit:before { content: "\ea14"; }
+.hi-envelope-o:before { content: "\ea15"; }
+.hi-envelope-o1:before { content: "\ea16"; }
+.hi-estimate:before { content: "\ea17"; }
+.hi-exclamation:before { content: "\ea18"; }
+.hi-feedback:before { content: "\ea19"; }
+.hi-file:before { content: "\ea1a"; }
+.hi-github:before { content: "\ea1b"; }
+.hi-hide:before { content: "\ea1c"; }
+.hi-icon-3d-vista:before { content: "\ea1d"; }
+.hi-icon-arrow-close:before { content: "\ea1e"; }
+.hi-icon-arrow-small:before { content: "\ea1f"; }
+.hi-icon-arrow:before { content: "\ea20"; }
+.hi-icon-audit-log:before { content: "\ea21"; }
+.hi-icon-backup:before { content: "\ea22"; }
+.hi-icon-calender:before { content: "\ea23"; }
+.hi-icon-checkmark:before { content: "\ea24"; }
+.hi-icon-copy:before { content: "\ea25"; }
+.hi-icon-crossmark:before { content: "\ea26"; }
+.hi-icon-custom-html-abe:before { content: "\ea27"; }
+.hi-icon-custom-html-statista:before { content: "\ea28"; }
+.hi-icon-double-arrows:before { content: "\ea29"; }
+.hi-icon-download:before { content: "\ea2a"; }
+.hi-icon-edit:before { content: "\ea2b"; }
+.hi-icon-excel:before { content: "\ea2c"; }
+.hi-icon-export:before { content: "\ea2d"; }
+.hi-icon-file:before { content: "\ea2e"; }
+.hi-icon-filter:before { content: "\ea2f"; }
+.hi-icon-filter1:before { content: "\ea30"; }
+.hi-icon-folder:before { content: "\ea31"; }
+.hi-icon-h5p:before { content: "\ea32"; }
+.hi-icon-help:before { content: "\ea33"; }
+.hi-icon-history:before { content: "\ea34"; }
+.hi-icon-info-inverted:before { content: "\ea35"; }
+.hi-icon-info:before { content: "\ea36"; }
+.hi-icon-interactive:before { content: "\ea37"; }
+.hi-icon-link:before { content: "\ea38"; }
+.hi-icon-lock-close:before { content: "\ea39"; }
+.hi-icon-move:before { content: "\ea3a"; }
+.hi-icon-permission:before { content: "\ea3b"; }
+.hi-icon-plus:before { content: "\ea3c"; }
+.hi-icon-popup-info:before { content: "\ea3d"; }
+.hi-icon-published:before { content: "\ea3e"; }
+.hi-icon-reset:before { content: "\ea3f"; }
+.hi-icon-search:before { content: "\ea40"; }
+.hi-icon-selected:before { content: "\ea41"; }
+.hi-icon-share:before { content: "\ea42"; }
+.hi-icon-square:before { content: "\ea43"; }
+.hi-icon-storyline:before { content: "\ea44"; }
+.hi-icon-subscribe:before { content: "\ea45"; }
+.hi-icon-subscription:before { content: "\ea46"; }
+.hi-icon-success:before { content: "\ea47"; }
+.hi-icon-tools:before { content: "\ea48"; }
+.hi-icon-tooltip:before { content: "\ea49"; }
+.hi-icon-trash:before { content: "\ea4a"; }
+.hi-icon-un-subscribe:before { content: "\ea4b"; }
+.hi-icon-unpublish:before { content: "\ea4c"; }
+.hi-icon-upload:before { content: "\ea4d"; }
+.hi-icon-user-edit:before { content: "\ea4e"; }
+.hi-icon-user-management:before { content: "\ea4f"; }
+.hi-icon-user:before { content: "\ea50"; }
+.hi-info:before { content: "\ea51"; }
+.hi-magnifier:before { content: "\ea52"; }
+.hi-person:before { content: "\ea53"; }
+.hi-pfizer:before { content: "\ea54"; }
+.hi-plus-fill:before { content: "\ea55"; }
+.hi-reset:before { content: "\ea56"; }
+.hi-round-check:before { content: "\ea57"; }
+.hi-square-menu-fill:before { content: "\ea58"; }
+.hi-square-menu:before { content: "\ea59"; }
+.hi-star:before { content: "\ea5a"; }
+.hi-text-file:before { content: "\ea5b"; }
+.hi-thumb:before { content: "\ea5c"; }
+.hi-unfold-more:before { content: "\ea5d"; }
+.hi-upload-cloud:before { content: "\ea5e"; }
+.hi-view:before { content: "\ea5f"; }
+

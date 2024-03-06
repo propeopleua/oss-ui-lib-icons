@@ -1,0 +1,7 @@
+{
+  "fontName": "hlxico",
+  "css": true,
+  "dist": "./dist",
+  "emptyDist": true,
+  "src": "./src/icons"
+}

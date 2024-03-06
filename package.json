@@ -8,24 +8,35 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "generate-icons": "node ./actions/generate-icons.mjs"
+    "generate-icons": "node ./actions/generate-icons.mjs",
+    "build-font": "svgtofont --sources ./src/icons --output ./dist --fontName hlxico --config package.json",
+    "build": "npm run build-font && npm run generate-icons"
+  },
+  "svgtofont": {
+    "outSVGReact": false,
+    "outSVGReactNative": false,
+    "generateInfoData": false,
+    "emptyDist": true,
+    "useCSSVars": false,
+    "css": true,
+    "outSVGPath": false,
+    "classNamePrefix": "hi"
+  },
+  "files": [
+    "*"
+  ],
+  "exports": {
+    "./style.css": {
+      "import": "./dist/hlxico.css"
+    },
+    "./icons.js": {
+      "import": "./icons.js"
+    }
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@storybook/addon-essentials": "^7.5.3",
-    "@storybook/addon-interactions": "^7.5.3",
-    "@storybook/addon-links": "^7.5.3",
-    "@storybook/blocks": "^7.5.3",
-    "@storybook/html": "^7.5.3",
-    "@storybook/html-vite": "^7.5.3",
-    "@storybook/testing-library": "^0.2.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^7.5.3"
+    "svgtofont": "^4.1.2"
   }
 }
