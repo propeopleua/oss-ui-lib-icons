@@ -3,7 +3,7 @@ import {resolve, dirname} from 'node:path';
 import {fileURLToPath} from 'node:url';
 
 const DIRNAME = dirname(fileURLToPath(import.meta.url));
-const FILE_PATH = resolve(DIRNAME, '..', 'style.css');
+const FILE_PATH = resolve(DIRNAME, '..', 'dist', 'hlxico.css');
 const DEST_FILE_PATH = resolve(DIRNAME, '..', 'icons.js');
 
 const data = readFileSync(FILE_PATH, {encoding: 'utf-8'});
