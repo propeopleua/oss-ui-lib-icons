@@ -1,10 +1,10 @@
 @font-face {font-family: "hlxico";
-  src: url('hlxico.eot?t=1713739128092'); /* IE9*/
-  src: url('hlxico.eot?t=1713739128092#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("hlxico.woff2?t=1713739128092") format("woff2"),
-  url("hlxico.woff?t=1713739128092") format("woff"),
-  url('hlxico.ttf?t=1713739128092') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('hlxico.svg?t=1713739128092#hlxico') format('svg'); /* iOS 4.1- */
+  src: url('hlxico.eot?t=1714397547958'); /* IE9*/
+  src: url('hlxico.eot?t=1714397547958#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("hlxico.woff2?t=1714397547958") format("woff2"),
+  url("hlxico.woff?t=1714397547958") format("woff"),
+  url('hlxico.ttf?t=1714397547958') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('hlxico.svg?t=1714397547958#hlxico') format('svg'); /* iOS 4.1- */
 }
 
 [class^="hi-"], [class*=" hi-"] {
@@ -104,12 +104,13 @@
 .hi-round-check:before { content: "\ea58"; }
 .hi-square-menu-fill:before { content: "\ea59"; }
 .hi-square-menu:before { content: "\ea5a"; }
-.hi-star:before { content: "\ea5b"; }
-.hi-text-file:before { content: "\ea5c"; }
-.hi-thumb:before { content: "\ea5d"; }
-.hi-unfold-more:before { content: "\ea5e"; }
-.hi-upload-cloud:before { content: "\ea5f"; }
-.hi-view:before { content: "\ea60"; }
+.hi-star-outlined:before { content: "\ea5b"; }
+.hi-star:before { content: "\ea5c"; }
+.hi-text-file:before { content: "\ea5d"; }
+.hi-thumb:before { content: "\ea5e"; }
+.hi-unfold-more:before { content: "\ea5f"; }
+.hi-upload-cloud:before { content: "\ea60"; }
+.hi-view:before { content: "\ea61"; }
 
 $hi-angle-down: "\ea01";
 $hi-angle-dropdown: "\ea02";
@@ -201,10 +202,11 @@ $hi-reset: "\ea57";
 $hi-round-check: "\ea58";
 $hi-square-menu-fill: "\ea59";
 $hi-square-menu: "\ea5a";
-$hi-star: "\ea5b";
-$hi-text-file: "\ea5c";
-$hi-thumb: "\ea5d";
-$hi-unfold-more: "\ea5e";
-$hi-upload-cloud: "\ea5f";
-$hi-view: "\ea60";
+$hi-star-outlined: "\ea5b";
+$hi-star: "\ea5c";
+$hi-text-file: "\ea5d";
+$hi-thumb: "\ea5e";
+$hi-unfold-more: "\ea5f";
+$hi-upload-cloud: "\ea60";
+$hi-view: "\ea61";
 
