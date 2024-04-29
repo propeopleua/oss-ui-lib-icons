@@ -1,11 +1,11 @@
 @font-face {
   font-family: "hlxico";
-  src: url('hlxico.eot?t=1714397547958'); /* IE9*/
-  src: url('hlxico.eot?t=1714397547958#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("hlxico.woff2?t=1714397547958") format("woff2"),
-  url("hlxico.woff?t=1714397547958") format("woff"),
-  url('hlxico.ttf?t=1714397547958') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('hlxico.svg?t=1714397547958#hlxico') format('svg'); /* iOS 4.1- */
+  src: url('hlxico.eot?t=1714399254652'); /* IE9*/
+  src: url('hlxico.eot?t=1714399254652#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("hlxico.woff2?t=1714399254652") format("woff2"),
+  url("hlxico.woff?t=1714399254652") format("woff"),
+  url('hlxico.ttf?t=1714399254652') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('hlxico.svg?t=1714399254652#hlxico') format('svg'); /* iOS 4.1- */
 }
 
 [class^="hi-"], [class*=" hi-"] {
